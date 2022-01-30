@@ -2,7 +2,7 @@
 It supports `AWS S3` and `Google Cloud Storage` at the moment.
 
 ### Steps:
- 1. Update `src/main/resources/.env` to include the credentials required for AWS and GCP access.
+ 1. Update `src/main/resources/.env` and `src/main/resources/demo_10k_svc_account_key.json` to include the credentials required for AWS and GCP access. 
  2. Run `Maven` `reload` task to download the dependencies
  3. Run the `main` method in `src/main/java/com.zhuor.cloud.downloader.demo/main.java` 
  4. Check the `download` directory in the project root
