@@ -20,7 +20,7 @@ public class main {
             CloudDownloader cloudDownloader = new CloudDownloader(CloudProvider.AWS_S3);
             Object object = cloudDownloader.download("demotenk", "account.csv");
 
-            System.out.println("GCP Download success: " + object);
+            System.out.println("AWS S3 Download success: " + object);
         } catch (Exception e) {
             System.out.println(e);
         }
